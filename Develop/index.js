@@ -31,7 +31,7 @@ const license = [
     'GNU Alfero v3.0', 
     'GNU General 2.0', 
     'GNU Lesser General 2.1', 
-    'Mozilla Public 2.0', 
+    'Mozilla Public 2.0 License', 
     'MIT', 
     'The Unlicense', 
     'None'
