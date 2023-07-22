@@ -82,7 +82,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-
+// adding remaining README sections to render on md file, data points should pull from inquirer prompt..
 function generateMarkdown(data) {
   let licenseBadge = '[' + renderLicenseBadge(data.license) + ']';
   let licenseLink = '(' + renderLicenseLink(data.license) + ')';
@@ -126,6 +126,17 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
   
+  ## Usage
+  ${data.usage}
+
+  ## Contributions
+  ${data.contribution}
+
+  ## Tests
+  ${data.test}
+
+  ## Questions
+  If you have any questions feel free to email me at ${data.email} or reach out on [Github](https://github.com/${data.github}). 
   
 `;
 }
