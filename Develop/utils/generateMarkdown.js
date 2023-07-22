@@ -68,14 +68,14 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseLink = renderLicenseLink(license);
-  let licenseHeader = '## License';
-  let licenseText = `This project is licensed under the [${license}] ${licenseLink} license.`;
+  // let licenseHeader = '## License';
+  let licenseText = `This project is licensed under the [${license}](${licenseLink}) license.`;
 
   if (license === 'None') {
     return '';
   } else {
     return `
-    ${licenseHeader}
+    
     ${licenseText}
     `
   }
@@ -114,6 +114,7 @@ function generateMarkdown(data) {
   }
 
   return `# ${data.title}
+
   ${licenseBadge}${licenseLink}
 
   ${tableofContents}
@@ -121,6 +122,7 @@ function generateMarkdown(data) {
   ## Description 
   ${data.description}
 
+  ## License
   ${licenseSection}
 
   ## Installation
