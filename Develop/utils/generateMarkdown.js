@@ -83,10 +83,14 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 // adding remaining README sections to render on md file, data points should pull from inquirer prompt..
+// fixed bug with some licenses not rendering correctly, there was a discrepancey between license names in the switch methods and license array used for prompts 
 function generateMarkdown(data) {
-  let licenseBadge = '[' + renderLicenseBadge(data.license) + ']';
+  let licenseBadge = '[![badge](' + renderLicenseBadge(data.license) + ')]';
+  console.log(licenseBadge)
   let licenseLink = '(' + renderLicenseLink(data.license) + ')';
+  console.log(licenseLink)
   let licenseSection = renderLicenseSection(data.license);
+  console.log(licenseSection)
 
   let tableofContents = `
   ## Table of Contents

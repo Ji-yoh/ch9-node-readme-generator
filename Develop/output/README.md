@@ -1,6 +1,6 @@
-# j
+# projecto
 
-  
+  [![badge](https://img.shields.io/badge/MIT_License-blue)](https://choosealicense.com/licenses/mit/)
 
   
   ## Table of Contents
@@ -14,23 +14,26 @@
   
 
   ## Description 
-  i
+  described
 
   ## License
   
+    
+    This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.
+    
 
   ## Installation
-  a
+  installed
   
   ## Usage
-  w
+  used
 
   ## Contributions
-  j
+  contribute
 
   ## Tests
-  a
+  instruct
 
   ## Questions
-  If you have any questions feel free to email me at a@a.com or reach out on [Github](https://github.com/a). 
+  If you have any questions feel free to email me at a@a.com or reach out on [Github](https://github.com/0). 
   

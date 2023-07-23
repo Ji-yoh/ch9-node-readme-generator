@@ -21,19 +21,19 @@ const questions = [
 // originally had this array included in prompts but moved outside for clarity and to use in generateMarkdown.js
 // add list from Github
 const license = [
-    'Apache 2.0', 
+    'Apache 2.0',
     'GNU GPL v3',
-    'BSD 2',
-    'BSD 3', 
-    'Boost', 
-    'Creative Commons Zero v1', 
-    'Eclipse Public 2.0', 
-    'GNU Alfero v3.0', 
+    'BSD 2 Clause',
+    'BSD 3 Clause', 
+    'BSL 1.0',
+    'Creative Commons Zero v1',
+    'Eclipse Public 2.0',
+    'GNU Alfero v3.0',
     'GNU General 2.0', 
-    'GNU Lesser General 2.1', 
-    'Mozilla Public 2.0 License', 
-    'MIT', 
-    'The Unlicense', 
+    'GNU Lesser General 2.1',
+    'Mozilla Public License 2.0', 
+    'MIT License',
+    'The Unlicense',
     'None'
 ]
 
