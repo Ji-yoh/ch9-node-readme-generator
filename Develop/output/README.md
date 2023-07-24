@@ -1,5 +1,5 @@
 
-  # project xii
+  # project xi
 
   
   ## Table of Contents
@@ -16,11 +16,8 @@
   ipsom
 
   ## License
-  [![badge](https://img.shields.io/badge/MIT_License-blue)](https://choosealicense.com/licenses/mit/)
   
-
-  This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.
-    
+  
 
   ## Installation
   lorem
@@ -29,11 +26,11 @@
   ipsom
 
   ## Contribution
-  lorem
-
-  ## Tests
   ipsom
 
+  ## Tests
+  lorem
+
   ## Questions
-  If you have any questions feel free to email me at o@o.com or reach out on [Github](https://github.com/uwu). 
+  If you have any questions feel free to email me at q@q.com or reach out on [Github](https://github.com/o). 
   

@@ -25,3 +25,10 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ``````
+## Development
+* Cloned starter code from repo listed on the assignment page and received some assistance from classmates. 
+* Added a separate array for the different licenses the user can select from, this is the same list that is avaiable when creating a Github repo. License badge images are from shields.io and the license links direct to choosealicense.com where full license text is housed. 
+* Ran into some issues with the license badge not displaying correctly but this was due to some typos in the license array. Also encountered issues with the placement of the badge and link, original placement caused too much blank space between the title and table of contents.
+
+## Video Walkthrough
+[Video](https://drive.google.com/file/d/14AeWKSujGvbjxzaL0ReHxjb3DIZ5RnN7/view?pli=1)
