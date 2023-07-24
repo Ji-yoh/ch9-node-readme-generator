@@ -75,8 +75,8 @@ function renderLicenseSection(license) {
     return '';
   } else {
     return `
-    
-    ${licenseText}
+
+ ${licenseText}
     `
   }
 }
@@ -84,6 +84,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 // adding remaining README sections to render on md file, data points should pull from inquirer prompt..
 // fixed bug with some licenses not rendering correctly, there was a discrepancey between license names in the switch methods and license array used for prompts 
+// there is an issue with the placement of the license badge, when no license is selected the extra blank space between the title and ToC causes the preview README not to generate
 function generateMarkdown(data) {
   let licenseBadge = '[![badge](' + renderLicenseBadge(data.license) + ')]';
   console.log(licenseBadge)
@@ -103,8 +104,8 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   `
 
-  if (data.license === 'None') { // if no license selected, remove license section from table of contents
-    `
+  if (data.license == 'None') { // if no license selected, remove license section from table of contents
+  `
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -112,14 +113,13 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Questions](#questions)
-    `
+  `
     licenseBadge = '';
     licenseLink = '';
   }
 
-  return `# ${data.title}
-
-  ${licenseBadge}${licenseLink}
+  return `
+  # ${data.title}
 
   ${tableofContents}
 
@@ -127,6 +127,7 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## License
+  ${licenseBadge}${licenseLink}
   ${licenseSection}
 
   ## Installation
@@ -135,7 +136,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Contributions
+  ## Contribution
   ${data.contribution}
 
   ## Tests
