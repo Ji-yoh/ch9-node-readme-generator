@@ -76,7 +76,7 @@ function renderLicenseSection(license) {
   } else {
     return `
 
- ${licenseText}
+  ${licenseText}
     `
   }
 }
